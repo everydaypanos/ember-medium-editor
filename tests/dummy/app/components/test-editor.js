@@ -30,7 +30,7 @@ export default Component.extend({
 
   text,
 
-  openSections: computed(() => new A(['core'])),
+  openSections: computed(() => A(['core'])),
 
   actions: {
     preventDefault(e) {

@@ -6,7 +6,7 @@ import { A } from '@ember/array';
 const OETagInput = Component.extend({
   tagName: '',
 
-  internalOptions: computed(() => new A()),
+  internalOptions: computed(() => A()),
 
   value: computed(() => []),
   controlId: null,
